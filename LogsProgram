@@ -1,0 +1,33 @@
+/**********************************************************************
+ * ICS4U-unit1-02
+ * Created by: Gavin Zhou 
+ * Created on: Feb 2018
+ * This program is find what number of logs will fit on a truck
+ **********************************************************************/
+
+import java.util.*;
+
+class LogsProgram{
+	private static Scanner input;
+
+	public static void main(String[]args){
+
+	input = new Scanner(System.in);
+	
+	//Defining variable:
+	double lengh;
+	double weigh = 20;
+	double answer;
+	
+	//Asking for user input and storing it into "double lengh"
+	System.out.println("Ener the lengh of logs in meters. (0.25, 0.5, 1)");
+	lengh = input.nextDouble();
+	
+	//Calculations
+	anwser = 1100/weigh/lengh;
+	
+	//answer
+	System.out.println("The answer is: " + answer);
+	
+	}
+}
